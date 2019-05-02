@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.Scanner;
 import java.util.HashMap;
 
-public class ContaPalavra implements HashMap<String, Integer> {
+public class ContaPalavra {
     
     private String nomeArquivo;
     private File arquivoAlvo;
