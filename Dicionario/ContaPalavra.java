@@ -2,12 +2,12 @@ import java.io.*;
 import java.util.Scanner;
 import java.util.HashMap;
 
-public class ContaPalavra implements Map<String, Integer> {
+public class ContaPalavra implements HashMap<String, Integer> {
     
     private String nomeArquivo;
     private File arquivoAlvo;
     private Scanner leitor;
-    private Map<String, Integer> dicionario;
+    private HashMap<String, Integer> dicionario;
     
     public ContaPalavra(String nomeArquivo) {
         this.nomeArquivo = "./" + nomeArquivo; // arquivo neste diretório
