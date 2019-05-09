@@ -4,6 +4,8 @@ import java.util.*;
 
 public class Vertice {
 
+    // o id neste programa não tem nenhuma finalidade
+    // mas pode ser um valor assinalado ao vertice
     private final String id;
     private final String nome;
     private HashMap<String, Integer> adjacentes;
@@ -94,6 +96,7 @@ public class Vertice {
         }
     }
 
+    // retorna o vizinho mais proximo
     public String maisProximo() {
         Integer peso1;
         Integer peso2;
