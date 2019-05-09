@@ -62,7 +62,7 @@ public class Vertice {
 
     @Override
     public String toString() {
-        return nome;
+        return this.nome;
     }
 
     public void adicionaVizinho(String nome, int peso) {

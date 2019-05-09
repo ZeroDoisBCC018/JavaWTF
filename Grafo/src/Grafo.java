@@ -108,6 +108,8 @@ public class Grafo {
         String prox = inicial.maisProximo();
         System.out.println("Saindo de " + inicial.toString() + " para " + prox);
         inicial.tiraVizinho(prox);
-        floydWarshall(getVerticeNome(prox));
+        Vertice aux = getVerticeNome(prox);
+        aux.tiraVizinho(inicial.toString());
+        floydWarshall(aux);
     }
 }
